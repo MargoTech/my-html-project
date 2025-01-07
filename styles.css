@@ -30,3 +30,32 @@ p {
   padding: 0, 6em;
   margin-bottom: 1em;
 }
+
+
+nav.navbar {
+  background-color: var(--color2)
+  border-bottom: 2px solid #ccc; 
+  padding: 10px 20px;
+}
+
+
+.bg-body-tertiary {
+  background-color: var(--color2) !important;
+  color: var(--color1); 
+}
+
+
+nav.navbar {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav.navbar a.nav-link {
+  color: var(--color1); 
+  font-weight: bold; 
+}
+
+
+nav.navbar a.nav-link:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
