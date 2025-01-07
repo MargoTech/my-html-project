@@ -2,7 +2,7 @@
   --color1: #2E5077;
   --color2: #93C6E7;
   --color3: #C6E7FF;
-  --color4: #E5E1DA;
+  --color4: #D4EBF8;
 }
 
 body {
@@ -20,6 +20,7 @@ h1 {
 p {
   color: var(--color1);
   font-family: "DM Serif Text", serif;
+  font-size: 20px;
   font-style: italic;
 }
 
@@ -66,3 +67,17 @@ nav.navbar a.nav-link {
 }
 
 
+.card {
+  background-color: var(--color2);
+  border-radius: 1em;
+  text-align: center;
+  padding: 1em;
+}
+.card:hover {
+  background-color: var(--color4);
+}
+.card img {
+  border-radius: 50%;
+  width: 60%;
+  margin: auto;
+}
