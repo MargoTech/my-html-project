@@ -66,16 +66,19 @@ nav.navbar a.nav-link {
   margin-right: 15px;
 }
 
-
 .card {
   background-color: var(--color2);
   border-radius: 1em;
   text-align: center;
   padding: 1em;
 }
+
 .card:hover {
   background-color: var(--color4);
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
 }
+
 .card img {
   border-radius: 50%;
   width: 60%;
