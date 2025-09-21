@@ -36,4 +36,4 @@ The goal of this page is to:
 
 ## 📬 Contact
 Created with ❤️ by *MargoTech*  
-GitHub: [your-username](https://github.com/MargoTech)  
+GitHub: [MargoTech](https://github.com/MargoTech)  
